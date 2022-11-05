@@ -1,4 +1,7 @@
 # auto-update_clean
+Are you tired of always running more that three different commands on the terminal to update, upgrade and clean
+you linux/debian operating system? Here is a simple solution that does the update, upgrade, unclutter and more
+using a single command.
 
 ## Purpose:
 - Get system update.
@@ -8,10 +11,22 @@
 - Removes older versions of snaps.
 
 ## Usage:
-- Download the `upgrade_clean.sh` file
-- Add executable permission to the file using `chmod +x upgrade_clean.sh`
-- Run the file as an executable: `./upgrade_clean.sh`
-- If it fails, run as a superuser using: `sudo ./upgrade_clean.sh`
+1. Clone the repository:
+```
+git clone git@github.com:King-Kingah/auto-update_clean.git
+```
+2. Make the file executable by adding permission:
+```
+chmod +x upgrade_clean.sh
+```
+3. Run the file as an executable from the terminal, run:
+```
+./upgrade_clean.sh
+```
+NOTE: If it fails, run as a superuser using:
+```
+sudo ./upgrade_clean.sh
+```
 
 ## Use Cases:
 **Currently, this bash script for Debian based operating systems and has been particularly used and tested on Ubuntu 20.04.3 LTS**
